@@ -1,3 +1,20 @@
+# Repository Description
+
+This artifact is the replication package for our paper entitled: "GitRev: A Gamification-based Approach for Engagement in Modern Code Review Activities"
+
+This replication package contains the following folders:
+
+myserver: The Node.js server code for authentication and data management.
+
+fastapi: The Python FastAPI scripts interfacing with ChatGPT for activity rating.
+
+react-extension: The React.js-based Chrome extension code for the User Interface.
+
+probot: The Probot app code for GitHub activity tracking.
+
+Refer to the included setup guide and demo video for detailed instructions, and check the GitRev_prompts.md file for the evaluation scripts used within the rewarding system.
+
+
 # GitRev Gamification System
 
 GitRev is a comprehensive gamification system designed to enhance the GitHub UI dashboard and user experience. It integrates a GitHub app, GitHub authentication, a Chrome extension, a MongoDB database, a Gamification server, and a FastAPI application to provide an engaging and interactive environment for GitHub users.
@@ -55,15 +72,15 @@ This guide will walk you through creating a GitHub App and configuring it to wor
     SERVER_API_BASE_URL is your gamification server URL.
     FAST_API_BASE_URL is the base URL for your FastAPI app, typically obtained after running it with uvicorn
 
-   Replace placeholder values with those specific to your app.
+Replace placeholder values with those specific to your app.
 
-    Install & Build:
-    Run npm install and npm run build in the probot directory.
-    Step 3: Run Your App
-    Execute npm start to run your Probot app.
-    For more details, you can read the Probot documentation : https://probot.github.io/docs/configuration/
+ Install & Build:
+ Run npm install and npm run build in the probot directory.
+ Step 3: Run Your App
+ Execute npm start to run your Probot app.
+ For more details, you can read the Probot documentation : https://probot.github.io/docs/configuration/
 
-    Note: The .env file already contains the necessary variables. You need to fill in the actual values provided by GitHub.
+ Note: The .env file already contains the necessary variables. You need to fill in the actual values provided by GitHub.
 
 
 
