@@ -4,13 +4,13 @@ This artifact is the replication package for our paper entitled: "GitRev: A Gami
 
 This replication package contains the following folders:
 
-myserver: The Node.js server code for authentication and data management.
+myserver: The Node.js server code for authentication and data management. https://github.com/jaykay9999/GitRev/tree/main/myserver
 
-fastapi: The Python FastAPI scripts interfacing with ChatGPT for activity rating.
+fastapi: The Python FastAPI scripts interfacing with ChatGPT for activity rating. https://github.com/jaykay9999/GitRev/tree/main/fastapi
 
-react-extension: The React.js-based Chrome extension code for the User Interface.
+react-extension: The React.js-based Chrome extension code for the User Interface. https://github.com/jaykay9999/GitRev/tree/main/react-extension
 
-probot: The Probot app code for GitHub activity tracking.
+probot: The Probot app code for GitHub activity tracking. https://github.com/jaykay9999/GitRev/tree/main/probot
 
 Refer to the included setup guide and demo video for detailed instructions, and check the GitRev_prompts.md file for the evaluation scripts used within the rewarding system.
 
