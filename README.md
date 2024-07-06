@@ -4,13 +4,13 @@ This artifact is the replication package for our paper entitled: "GitRev: A Gami
 
 This replication package contains the following folders:
 
-myserver: The Node.js server code for authentication and data management. https://github.com/jaykay9999/GitRev/tree/main/myserver
+- myserver: The Node.js server code for authentication and data management. https://github.com/jaykay9999/GitRev/tree/main/myserver
 
-fastapi: The Python FastAPI scripts interfacing with ChatGPT for activity rating. https://github.com/jaykay9999/GitRev/tree/main/fastapi
+- fastapi: The Python FastAPI scripts interfacing with ChatGPT for activity rating. https://github.com/jaykay9999/GitRev/tree/main/fastapi
 
-react-extension: The React.js-based Chrome extension code for the User Interface. https://github.com/jaykay9999/GitRev/tree/main/react-extension
+- react-extension: The React.js-based Chrome extension code for the User Interface. https://github.com/jaykay9999/GitRev/tree/main/react-extension
 
-probot: The Probot app code for GitHub activity tracking. https://github.com/jaykay9999/GitRev/tree/main/probot
+- probot: The Probot app code for GitHub activity tracking. https://github.com/jaykay9999/GitRev/tree/main/probot
 
 Refer to the included setup guide and demo video for detailed instructions, and check the GitRev_prompts.md file for the evaluation scripts used within the rewarding system.
 
@@ -150,4 +150,15 @@ This command starts the FastAPI application, making it accessible on port `8000`
 
 Once the full system is running, the probot app will start tracking your GitHub activities and update your earned points in the database through "myserver" and "fastapi"
 
-To access the gamification elements (badges, leaderboards, etc...) you should go to https://github.com and make sure that you are logged in. You will find a new purple button on top right that allows you to automatically create an account in 1 click. after account creation, you should be able to view all the game elements directly on your GitHub dashboard. This video shows hows the system works after complete setup: https://www.youtube.com/watch?v=Zbu71fWkYi0
+To access the gamification elements (badges, leaderboards, etc...) you should go to https://github.com and make sure that you are logged in. You will find a new purple button on top right that allows you to automatically create an account in 1 click. after account creation, you should be able to view all the game elements directly on your GitHub dashboard. 
+
+To level up and increase your experience points:
+   - Perform any code review-related task such as assigning a label to project, or leaving a comment to an open issue / open pull request
+   - You should see gained experience points animation on top right
+
+You can also:
+- View your rank in the leaderboards using the leaderboards button
+- Buy cosmetic profile skins that covers the borders of your profile picture on the leaderboards with earned coins
+- View your GitHub performance statistics on the profile page 
+
+This video shows hows the system works after complete setup: https://www.youtube.com/watch?v=Zbu71fWkYi0
